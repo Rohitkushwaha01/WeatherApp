@@ -6,3 +6,5 @@
 Languages & Tools used:-
 
 HTML5 || CSS || JAVASCRIPT || NODE.JS || EJS
+
+API used :- OpenWeathermap Api
