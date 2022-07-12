@@ -1,0 +1,16 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "\"My very first backend project(Excited!!😎)\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohit kushwaha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}

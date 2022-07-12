@@ -1,0 +1,140 @@
+#flexContainer {
+  display: flex;
+}
+
+.box {
+  width: 100%;
+  height: 800px;
+  background-color: var(--bg-color1);
+}
+
+.box1 {
+  width: 30%;
+  height: 800px;
+  background-color: var(--bg-color1);
+}
+
+form {
+  padding: 30px;
+  width: 73%;
+  margin: auto;
+}
+
+input {
+  width: 80%;
+  height: 25px;
+  outline: black;
+}
+
+button {
+  height: 30px;
+}
+
+.box-item {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  background-color: var(--bg-black);
+  color: var(--text-color);
+  text-align: center;
+  border-radius: 8px;
+}
+
+.box-item h1,
+h3 {
+  padding-top: 20px;
+  font-family: var(--font-family-raleway);
+}
+
+.box-item img {
+  width: 110px;
+  height: 110px;
+}
+
+.box-item p {
+  font-family: var(--font-family-raleway);
+  color: var(--text-color-do);
+  font-size: 30px;
+}
+
+.date-box {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  color: var(--text-color);
+  text-align: center;
+  font-weight: 100;
+}
+
+.msg {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  background-color: var(--bg-black);
+  color: var(--text-color);
+  border-radius: 8px;
+  font-family: var(--font-family-raleway);
+}
+.msg h3 {
+  text-align: center;
+}
+
+.msg label {
+  font-size: 15px;
+}
+
+.msg ul li {
+  margin-top: 10px;
+}
+
+.box2 {
+  width: 70%;
+  background-color: var(--bg-color2);
+  font-family: var(--font-family-raleway);
+}
+
+.box2 h1 {
+  margin-left: 20px;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 12px;
+}
+
+.items {
+  width: 30%;
+  height: 200px;
+  margin: 20px 10px 10px 20px;
+  background-color: var(--bg-black);
+  color: var(--text-color);
+  text-align: center;
+  border-radius: 10px;
+  flex-grow: 2;
+}
+
+.items h4 {
+  color: var(--text-color-do);
+  font-family: var(--font-family-roboto);
+  font-size: 30px;
+}
+
+@media screen and (max-width: 770px) {
+  #flexContainer {
+    display: block;
+  }
+  .box1 {
+    width: 100%;
+    height: 530px;
+  }
+  .box2 {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .items h2 {
+    font-size: 20px;
+  }
+}

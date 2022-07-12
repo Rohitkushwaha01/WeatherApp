@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@1,100&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;400&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --font-family-raleway: 'Raleway';
+    --font-family-roboto: 'Roboto';
+    --text-color:white;
+    --text-color-do:darkorange;
+    --bg-color1:  #262948;
+    --bg-color2: rgb(71, 73, 104);
+    --bg-black: #100e1d
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:460px) {
+    #navbar nav ul{
+        display: block;
+        text-align: center;
+        position: relative;
+    }
+} */
+
+/* 
+#flexContainer{
+    display: flex;
+    height: 140vh;
+}
+
+#side1{
+    background-color: var(--bg-color1);
+    width: 40vw;
+    height: 100%;
+}
+
+form{
+    padding: 30px 0px;
+    width: 58%;
+    margin: auto;
+}
+
+input{
+    padding: 8px 10px;
+    margin: 0px 10px;
+}
+
+button{
+    padding: 8px 10px;
+    margin: 0px 10px;
+}
+
+.box{
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    background-color: var(--bg-black);
+    color: var(--text-color);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box h1{
+    font-family: var(--font-family-roboto); 
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.box .bg-img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    position: relative;
+    bottom: 210px;
+}
+
+.box .icon-img{
+    position: relative;
+    bottom: 366px;
+    width: 46%;
+    height: 66%;
+}
+
+
+#side2{
+    font-family: var(--font-family-roboto); 
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--bg-color2);
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+
+#side2 h1{
+    margin-left: 20px;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards .items{
+    width: 270px;
+    margin: 20px 10px 10px 20px;
+    height: 200px;
+    background-color: var(--bg-black);
+    color: var(--text-color);
+    text-align: center;
+    border-radius: 10px;
+    flex-grow: 2;
+}
+
+
+footer{
+    background-color: var(--bg-black);
+    color: rgba(204, 228, 228,0.5);
+    font-family: var(--font-family-raleway);  
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+}
+ */

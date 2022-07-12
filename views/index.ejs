@@ -1,0 +1,36 @@
+<!-- <%- include('partials/header') -%> <%- include('navbar') -%>
+
+<div id="flexContainer">
+  <div class="box hide">
+    <div class="">
+      <form action="/" method="post">
+        <input type="text" name="city" placeholder="Search for places/city" />
+        <button type="submit">Go</button>
+      </form>
+    </div>
+    <div class="msg">
+      <h3>Please Search for the location</h3>
+      <ul>
+        <label for="">You can Enter any city name and get there weather details. You can search city name such as:</label>
+        <li>Pune</li>
+        <li>Mumbai</li>
+        <li>London</li>
+        <li>Paris</li>
+        <li>Tokyo</li>
+        <li>Delhi</li>
+      </ul>
+    </div>
+</div>
+
+</div>
+
+<%- include('partials/footer') -%> -->
+
+<%- include('partials/header') -%> <%- include('navbar') -%>
+
+<div id="flexContainer">
+  <%- include('box1') -%>
+  <%- include('box2') -%>
+</div>
+
+<%- include('partials/footer') -%>

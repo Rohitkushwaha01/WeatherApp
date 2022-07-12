@@ -1,0 +1,16 @@
+<div class="box1">
+    <div class="">
+      <form action="/" method="post">
+        <input type="text" name="city" placeholder="Search for places/city" />
+        <button type="submit">Go</button>
+      </form>
+    </div>
+    <div class="box-item">
+      <h1><i class="fa-solid fa-location-dot"></i> Weather in <%=city%></h1>
+      <img src=<%=icon%> alt="">
+      <p><%=weatherstatus%>(<%=temperature%>&deg;)</p>
+    </div>
+    <div class="date-box">
+      <h3><%=currentdate%></h3>
+    </div>
+</div>
